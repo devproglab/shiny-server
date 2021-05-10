@@ -19,6 +19,14 @@ ui <- navbarPage(HTML("<strong><a href=\"http://econom.space\" style='color:whit
                  tagList(
                    tags$head(tags$link(rel = "stylesheet", type = "text/css", href = "style.css")
                    )),
+                 footer = tagList(HTML('
+                 <strong>Contacts:</strong>
+                 Ilya Gulenkov | 
+          <ul class="list-unstyled" style="display:inline">
+            <li style="display:inline"><a href="mailto:iluagulenkov@gmail.com" class="text-muted">iluagulenkov@gmail.com</a> |</li>
+            <li style="display:inline"><a href="mailto:igulenkov@hse.ru" class="text-muted">igulenkov@hse.ru</a></li>
+</ul>')),
+                 windowTitle='Trade Diversification Dashboard | Econom.space',
                  inverse=FALSE,
     tabPanel("Trade Diversification Dashboard",
     # Application title

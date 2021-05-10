@@ -1,0 +1,27 @@
+.navbar-default {
+background-color: #212529!important;
+}
+
+.navbar-brand {
+color:white!important;
+font-weight:770!important;
+font-size:20px!important;
+font-family:Segoe UI;
+}
+.navbar-brand>a:hover {
+color:white!important;
+}
+.navbar {
+padding-top:3px!important;
+padding-bottom:3px!important;
+}
+.navbar-nav>.active>a {
+color:white!important;
+background-color: #1F1D1D!important;
+}
+.navbar-nav>.active>a:focus {
+background-color: #333!important;
+}
+.navbar>.container-fluid {
+padding-left:12px!important;
+}

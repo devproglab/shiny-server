@@ -7,9 +7,9 @@
 #    http://shiny.rstudio.com/
 # rsconnect::deployApp()
 
-library(shiny)
-library(dygraphs)
-library(magrittr)
+require(shiny)
+require(dygraphs)
+require(magrittr)
 
 # Define UI for application that draws a histogram
 ui <- fluidPage(

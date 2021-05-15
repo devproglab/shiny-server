@@ -17,7 +17,16 @@ ui <- navbarPage(HTML("<strong><a href=\"http://econom.space\" style='color:whit
                  selected="Trade Diversification Dashboard",
                  header = 
                  tagList(
-                   tags$head(tags$link(rel = "stylesheet", type = "text/css", href = "style.css")
+                   tags$head(tags$link(rel = "stylesheet", type = "text/css", href = "style.css"),
+                   tags$head(HTML("<!-- Global site tag (gtag.js) - Google Analytics -->
+                                    <script async src='https://www.googletagmanager.com/gtag/js?id=G-31CXK40FPP'></script>
+                                    <script>
+                                    window.dataLayer = window.dataLayer || [];
+                                  function gtag(){dataLayer.push(arguments);}
+                                  gtag('js', new Date());
+                                  
+                                  gtag('config', 'G-31CXK40FPP');
+                                  </script>"))
                    )),
                  footer = tagList(HTML('
                  <strong>Contacts:</strong>

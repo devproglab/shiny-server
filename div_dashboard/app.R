@@ -24,7 +24,7 @@ ui <- navbarPage(HTML("<strong><a href=\"http://econom.space\" style='color:whit
                  Ilya Gulenkov | 
           <ul class="list-unstyled" style="display:inline">
             <li style="display:inline"><a class="text-muted" href="mail&#116;o&#58;&#105;&#108;&#117;a&#103;ul%65nk%6&#70;v&#64;gm&#97;il&#46;c&#37;&#54;&#70;m">&#105;lu&#97;g&#117;l&#101;nkov&#64;&#103;&#109;ail&#46;com</a> |</li>
-            <li style="display:inline"><a href="m&#97;ilt&#111;&#58;i&#37;67u&#108;&#101;nkov&#64;hs&#101;&#46;ru">&#105;gul&#101;nkov&#64;hse&#46;&#114;u</a></li>
+            <li style="display:inline"><a class="text-muted" href="m&#97;ilt&#111;&#58;i&#37;67u&#108;&#101;nkov&#64;hs&#101;&#46;ru">&#105;gul&#101;nkov&#64;hse&#46;&#114;u</a></li>
 </ul>')),
                  windowTitle='Trade Diversification Dashboard | Econom.space',
                  inverse=FALSE,

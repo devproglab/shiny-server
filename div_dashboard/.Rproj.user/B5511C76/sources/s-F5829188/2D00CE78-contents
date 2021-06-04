@@ -1,11 +1,7 @@
-#
-# This is a Shiny web application. You can run the application by clicking
-# the 'Run App' button above.
-#
-# Find out more about building applications with Shiny here:
-#
-#    http://shiny.rstudio.com/
-# rsconnect::deployApp()
+# CelineDion2021Encore
+# ssh ilya@econom.space
+# cd /srv/shiny_server
+# git_pull
 
 require(shiny)
 require(dygraphs)
@@ -51,16 +47,16 @@ ui <- navbarPage(HTML("<strong><a href=\"http://econom.space\" style='color:whit
 
         # Show a plot of the generated distribution
         mainPanel(
-          p('A tool at early stages of development which aims to provide access to a set of measures for trade diversification. 
+          p('A tool which aims to provide access to a set of measures for trade diversification. 
 Currently the Theil index (alongside with its "between" and "within" decomposition) is provided, which allows to examine export basket product diversification along the intensive and extensive margins. Future releases will feature
 the HHI index for product diversification, as well as various measures of market diversification. Bulk download options are scheduled to be available in summer 2021.'),
             dygraphOutput("dygraph"),
-          p('The current values are provisional and are scheduled to be recalculated in June 2021
-              following an updated methodology. The latter will take advantage of the available mirror
-              data for countries with poor trade statistics coverage, as well as use the BACI database
-              instead of direct TradeMap data. Most significant changes are expected to the index values 
-              for the least developed countries.
-              '),
+          # p('The current values are provisional and are scheduled to be recalculated in June 2021
+          #     following an updated methodology. The latter will take advantage of the available mirror
+          #     data for countries with poor trade statistics coverage, as well as use the BACI database
+          #     instead of direct TradeMap data. Most significant changes are expected to the index values 
+          #     for the least developed countries.
+          #     '),
         )
     )
 )

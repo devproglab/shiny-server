@@ -65,6 +65,23 @@ product <- reactive({
 
 ## Column {.tabset data-height="800"}
 
+### Сведения о модели
+
+### Значения эластичностей по факторам
+
+```{r elast, echo=FALSE}
+
+plotOutput('elast')
+
+output$elast <- renderPlot({
+  
+  model_name = product()
+  estimated <- loadR(model_name)
+  plotelast(estimated)
+
+})
+```
+
 ### Изменение розничной цены - г/г
 
 <div class="chart-wrapper">

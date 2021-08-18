@@ -200,10 +200,10 @@ plotelast = function(model, nosave=FALSE) {
     plotalphas(y = alphahat[, i], sdy = alphahatsd[, i], namey = statenames[i])
   }
   title(paste('Эластичности:', model$model_name), outer = TRUE, line=-1)
-  if (!nosave) {
-    dev.copy(png, paste('fig/', names(model$df)[1], '.png', sep=''), width=1280, height=720)
-    dev.off ()
-  }
+  # if (!nosave) {
+  #   dev.copy(png, paste('fig/', names(model$df)[1], '.png', sep=''), width=1280, height=720)
+  #   dev.off ()
+  # }
 }
 # plotinputs() smooth difference model data plot  ----------------------------------------------
 plotinputs = function(model) {
@@ -230,7 +230,7 @@ plotdata = function(model) {
 }
 # plotalphas() coefficients plot with confidence intervals  ------------------------------------
 plotalphas = function(y, sdy, namey) {
-  par(mar = c(3, 4, 3.5, 0.5))
+  # par(mar = c(3, 4, 3.5, 0.5))
   plot(coredata(y), lwd = 3, type = 'l', col = 'blue', xaxt = 'n',
        ylim = c(min(y - sdy), max(y + sdy)), ylab = '', main = namey, xlab = '')
   polygon(x = c(1:length(coredata(y)), length(coredata(y)):1),

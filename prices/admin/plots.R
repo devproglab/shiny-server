@@ -151,7 +151,7 @@ plot_price_decomp <- function(estimated) {
   decomp <- estimated$price_decomp
   product_name <- estimated$model_name
   weekly <- estimated$weekly
-  Sys.setlocale("LC_TIME", "Russian")
+  Sys.setlocale("LC_TIME", "Russian") 
   varlabels <- colnames(decomp)
   graph_material <- data.frame(decomp)
   names(graph_material) <- varlabels

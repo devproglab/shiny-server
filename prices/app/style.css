@@ -1,0 +1,35 @@
+.chart-wrapper{
+  height:100%; 
+  display:flex; 
+  flex-direction:row; 
+  justify-content:start;
+  padding:1%;
+}
+
+.chart-block{
+  height:90%;
+  width:75%;
+}
+
+.text-block{
+  height:90%;
+  width:25%;
+  text-align:justify
+}
+.optgroup-header {
+  display:none;
+}
+select {
+    max-width: 100%;
+    white-space: normal;
+    /* For Firefox: */
+    text-overflow: ellipsis;
+}
+
+option {
+  max-width: 100%;
+  box-sizing: border-box;
+  white-space: normal;
+  word-wrap: break-word;
+
+}

@@ -12,7 +12,7 @@ using <- function(...) {
 }
 
 using("data.table", "readxl", "dplyr", "xts", "plotly", "KFAS", "seasonal", "stats",
-      "lubridate", "xml2", "imputeTS", "ISOweek", "TSstudio", "RJDemetra", "stringr", "forecast", "ggplot2", "tsbox", "tempdisagg", "writexl", "Quandl", 'mcGlobaloptim')
+      "lubridate", "xml2", "imputeTS", "ISOweek", "stringr", "forecast", "ggplot2", "tsbox", "tempdisagg", "writexl", "Quandl", 'mcGlobaloptim')
 
 theme_set(theme_minimal())
 options(scipen=999)

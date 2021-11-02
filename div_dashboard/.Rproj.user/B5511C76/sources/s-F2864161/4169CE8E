@@ -3,7 +3,7 @@
     "path": "C:/Users/ilua/Dropbox/Research/shiny-server/div_dashboard/app.R",
     "project_path": "app.R",
     "type": "r_source",
-    "hash": "1582271369",
+    "hash": "0",
     "contents": "",
     "dirty": false,
     "created": 1629314391984.0,
@@ -12,15 +12,15 @@
     "properties": {
         "source_window_id": "",
         "Source": "Source",
-        "cursorPosition": "2,2",
+        "cursorPosition": "0,0",
         "scrollLine": "0"
     },
     "folds": "",
-    "lastKnownWriteTime": 1622838137,
+    "lastKnownWriteTime": 1635866562,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1622838137,
+    "last_content_update": 1635866562740,
     "read_only": false,
     "read_only_alternatives": []
 }

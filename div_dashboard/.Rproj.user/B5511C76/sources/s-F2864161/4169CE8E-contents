@@ -1,8 +1,3 @@
-# CelineDion2021Encore
-# ssh ilya@econom.space
-# cd /srv/shiny_server
-# git_pull
-
 require(shiny)
 require(dygraphs)
 require(magrittr)
